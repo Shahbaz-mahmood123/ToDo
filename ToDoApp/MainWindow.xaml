@@ -1,0 +1,33 @@
+﻿<Window x:Class="ToDoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ToDoApp"
+        mc:Ignorable="d"
+        Title="Login" Height="500" Width="350">
+    <Grid>
+        <Rectangle Height="450" VerticalAlignment="Top"  Fill="Black">
+            
+            
+        </Rectangle>
+        <Rectangle Height="300" Width="250" VerticalAlignment="Center" Fill="White">
+            <Rectangle.Effect>
+                <DropShadowEffect Color="White" Direction="0"></DropShadowEffect>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Grid Width="250" Height="240" VerticalAlignment="Center">
+            <TextBlock Text="LOGIN" HorizontalAlignment="Center"></TextBlock>
+            <StackPanel  VerticalAlignment="Center" Margin="10">
+                <Label Content="Username"></Label>
+                <TextBox Name="Usernametxt"></TextBox>
+                <Label Content="Password"></Label>
+                <PasswordBox Name="PasswordTxt"></PasswordBox>
+                <Button Height="20" Click="LogOn" Width="80" Content="Log In"></Button>
+                <Button VerticalAlignment="Bottom"  Height="20" Width="60" Content="Register" Click ="Register"></Button>
+                
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+</Window>
