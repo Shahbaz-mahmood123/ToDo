@@ -38,13 +38,13 @@ namespace ToDoApp
 
             User.UserInsert(username, password, emailAddress, userid);
 
+
         }
         private void Return(object sender, RoutedEventArgs e)
         {
             MainWindow mainWindow = new MainWindow();
-            Register register = new Register();
+            this.Close();
             mainWindow.Show();
-            register.Close();
         }
 
     }

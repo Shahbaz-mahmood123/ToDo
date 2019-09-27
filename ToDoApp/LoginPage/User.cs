@@ -9,7 +9,7 @@ using System.Windows;
 
 namespace ToDoApp.LoginPage
 {
-    public class User
+    public class User   
     {
 
         private string connectionString = @"Data Source = (localdb)\MSSQLLocalDB; Initial Catalog = ToDo; Integrated Security = True";
@@ -38,7 +38,6 @@ namespace ToDoApp.LoginPage
                     MainWindow mainWindow = new MainWindow();
                     Home home = new Home();
                     home.Show();
-                    mainWindow.Close();
                 }
                 else
                 {

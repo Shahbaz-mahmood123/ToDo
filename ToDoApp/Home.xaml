@@ -3,10 +3,30 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         xmlns:local="clr-namespace:ToDoApp"
         mc:Ignorable="d"
-        Title="Home" Height="450" Width="800">
+         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignBackground}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
+        Title="Home" Height="600" Width="800"
+        >
     <Grid>
-        
+        <Grid Height="60" VerticalAlignment="Top" Background="Black">
+            <TextBlock Text="Home"></TextBlock>
+            <Button HorizontalAlignment="Right" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}">
+                <materialDesign:PackIcon Kind="Power" Background="{x:Null}"></materialDesign:PackIcon>
+            </Button>
+            <Grid Margin="0 60 0 0" Background="Black">
+                <TabControl>
+                    <TabItem Header="Home"></TabItem>
+                    <TabItem Header="Pending"></TabItem>
+                    <TabItem Header="In Progress"></TabItem>
+                    <TabItem Header="Finished "></TabItem>
+                </TabControl>
+            </Grid>
+        </Grid>
     </Grid>
 </Window>

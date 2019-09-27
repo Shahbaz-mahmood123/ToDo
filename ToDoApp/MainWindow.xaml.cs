@@ -45,7 +45,9 @@ namespace ToDoApp
         private void Register( object sender, RoutedEventArgs e)
         {
             Register register= new Register();
+            this.Close();
             register.Show();
+
         }
     }
 }

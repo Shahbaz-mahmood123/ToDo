@@ -24,3 +24,9 @@ C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\Home.g.cs
 C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\Home.baml
 C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\Register.g.cs
 C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\Register.baml
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\App.baml

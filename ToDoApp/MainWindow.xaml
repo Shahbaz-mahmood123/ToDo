@@ -5,9 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ToDoApp"
         mc:Ignorable="d"
+         TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        Background="{DynamicResource MaterialDesignBackground}"
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        FontFamily="pack://application:,,,/MaterialDesignThemes.Wpf;component/Resources/Roboto/#Roboto"
         Title="Login" Height="500" Width="350">
     <Grid>
-        <Rectangle Height="450" VerticalAlignment="Top"  Fill="Black">
+        <Rectangle Height="469" VerticalAlignment="Top"  Fill="Black">
             
             
         </Rectangle>
@@ -23,8 +28,8 @@
                 <TextBox Name="Usernametxt"></TextBox>
                 <Label Content="Password"></Label>
                 <PasswordBox Name="PasswordTxt"></PasswordBox>
-                <Button Height="20" Click="LogOn" Width="80" Content="Log In"></Button>
-                <Button VerticalAlignment="Bottom"  Height="20" Width="60" Content="Register" Click ="Register"></Button>
+                <Button Height="30" Click="LogOn" Width="80" Content="Log In"></Button>
+                <Button VerticalAlignment="Bottom"  Height="30" Width="90" Content="Register" Click ="Register"></Button>
                 
             </StackPanel>
         </Grid>
