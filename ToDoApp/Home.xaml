@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz"
         xmlns:local="clr-namespace:ToDoApp"
         mc:Ignorable="d"
          TextElement.Foreground="{DynamicResource MaterialDesignBody}"
@@ -19,14 +20,29 @@
             <Button HorizontalAlignment="Right" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}">
                 <materialDesign:PackIcon Kind="Power" Background="{x:Null}"></materialDesign:PackIcon>
             </Button>
-            <Grid Margin="0 60 0 0" Background="Black">
-                <TabControl>
-                    <TabItem Header="Home"></TabItem>
-                    <TabItem Header="Pending"></TabItem>
-                    <TabItem Header="In Progress"></TabItem>
-                    <TabItem Header="Finished "></TabItem>
-                </TabControl>
-            </Grid>
         </Grid>
+        <Grid Margin="0 60 0 0">
+                <dragablz:TabablzControl>
+                    <dragablz:TabablzControl.InterTabController>
+                        <dragablz:InterTabController/>
+                    </dragablz:TabablzControl.InterTabController>
+                    <TabItem Header="Pennding">
+                        <TextBlock Text="Your pending tasks" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </TabItem>
+                    <TabItem Header="In Progress">
+                        <TextBlock Text="Your tasks in progress" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </TabItem>
+                    <TabItem Header="Completed">
+                        <TextBlock Text="Your finished tasks " HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </TabItem>
+                    <TabItem>
+                        <TabItem.Header>
+                            <materialDesign:PackIcon Kind="GithubCircle"/>
+                        </TabItem.Header>
+                        <TextBlock Text="Tesr" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                    </TabItem>
+                </dragablz:TabablzControl>
+            </Grid>
+        
     </Grid>
 </Window>

@@ -30,3 +30,6 @@ C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\MaterialDe
 C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\MaterialDesignThemes.Wpf.xml
 C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\App.baml
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\Dragablz.dll
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\Dragablz.pdb
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\Dragablz.xml
