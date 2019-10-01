@@ -17,7 +17,7 @@
     <Grid>
         <Grid Height="60" VerticalAlignment="Top" Background="Black">
             <TextBlock Text="Home"></TextBlock>
-            <Button HorizontalAlignment="Right" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}">
+            <Button HorizontalAlignment="Right" VerticalAlignment="Center" Background="{x:Null}" BorderBrush="{x:Null}" Click="Exit_App">
                 <materialDesign:PackIcon Kind="Power" Background="{x:Null}"></materialDesign:PackIcon>
             </Button>
         </Grid>
@@ -26,7 +26,10 @@
                     <dragablz:TabablzControl.InterTabController>
                         <dragablz:InterTabController/>
                     </dragablz:TabablzControl.InterTabController>
-                    <TabItem Header="Pennding">
+                <TabItem Header="Home">
+                    
+                </TabItem>
+                <TabItem Header="Pennding">
                         <TextBlock Text="Your pending tasks" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </TabItem>
                     <TabItem Header="In Progress">
@@ -34,12 +37,6 @@
                     </TabItem>
                     <TabItem Header="Completed">
                         <TextBlock Text="Your finished tasks " HorizontalAlignment="Center" VerticalAlignment="Center"/>
-                    </TabItem>
-                    <TabItem>
-                        <TabItem.Header>
-                            <materialDesign:PackIcon Kind="GithubCircle"/>
-                        </TabItem.Header>
-                        <TextBlock Text="Tesr" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                     </TabItem>
                 </dragablz:TabablzControl>
             </Grid>

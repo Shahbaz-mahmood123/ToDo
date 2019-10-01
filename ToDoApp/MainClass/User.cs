@@ -9,7 +9,7 @@ using System.Windows;
 
 namespace ToDoApp.LoginPage
 {
-    public class User   
+    public class User
     {
 
         private string connectionString = @"Data Source = (localdb)\MSSQLLocalDB; Initial Catalog = ToDo; Integrated Security = True";
@@ -54,7 +54,7 @@ namespace ToDoApp.LoginPage
                 Conn.Close();
             }
         }
-        public void UserInsert(string userName, string password, string emailAddress, int userid)
+        internal int UserInsert(string userName, string password, string emailAddress, int userid)
         {
             //Initalise vairable and SQL connections
 
@@ -81,17 +81,41 @@ namespace ToDoApp.LoginPage
                         MessageBox.Show("Account created" + "" + userId);
 
                     }
-                    catch(Exception e)
+                    catch (Exception e)
                     {
                         MessageBox.Show(e.Message);
                     }
                 }
             }
+            return userid;
+        }
+        public DataTable FillSrgUsers(int UserId)
+        {
+            DataTable ListName = new DataTable();
 
+            try
+            {
+                using (SqlConnection cnn = new SqlConnection(connectString))
+                {
+                    using (SqlCommand cmd = new SqlCommand("Select * from ToDoList where @UserId= userId", cnn))
+                    {
+                        cnn.Open();
+                        SqlDataReader reader = cmd.ExecuteReader();
+                        ListName.Load(reader);
+                        cmd.Dispose();
+                        cnn.Close();
+                    }
+                }
+            }
+
+            catch (Exception e)
+            {
+                MessageBox.Show("fail" + e);
+            }
+            return ListName;
         }
     }
 }
-
 
        
      

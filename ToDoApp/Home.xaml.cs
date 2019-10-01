@@ -23,5 +23,9 @@ namespace ToDoApp
         {
             InitializeComponent();
         }
+        private void Exit_App(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

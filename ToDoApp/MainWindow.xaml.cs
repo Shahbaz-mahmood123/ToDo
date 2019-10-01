@@ -36,9 +36,8 @@ namespace ToDoApp
             var  User = new User();
             username = Usernametxt.Text;
             password = PasswordTxt.Password;
-
             User.LogIn(username, password);
-
+          
          
 
         }
