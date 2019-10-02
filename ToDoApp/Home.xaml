@@ -27,7 +27,7 @@
                         <dragablz:InterTabController/>
                     </dragablz:TabablzControl.InterTabController>
                 <TabItem Header="Home">
-                    
+                    <local:HomeTab></local:HomeTab>
                 </TabItem>
                 <TabItem Header="Pennding">
                         <TextBlock Text="Your pending tasks" HorizontalAlignment="Center" VerticalAlignment="Center"/>

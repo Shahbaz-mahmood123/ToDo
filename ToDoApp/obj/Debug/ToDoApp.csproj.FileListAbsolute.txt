@@ -33,3 +33,12 @@ C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\App.baml
 C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\Dragablz.dll
 C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\Dragablz.pdb
 C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\bin\Debug\Dragablz.xml
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\UserControls\HomeTab.g.cs
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\UserControls\HomeTab.baml
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\UserControls\CompletedTab.g.cs
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\UserControls\InProgressTab.g.cs
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\UserControls\PendingTab.g.cs
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\UserControls\CompletedTab.baml
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\UserControls\InProgressTab.baml
+C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\obj\Debug\UserControls\PendingTab.baml

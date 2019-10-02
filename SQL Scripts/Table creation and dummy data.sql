@@ -1,4 +1,4 @@
-drop table  Users;
+--drop table  Users;
 
 
 CREATE TABLE Users(
@@ -27,3 +27,5 @@ values(2, 'test2', 'test','test2@test.com' )
 
 insert into Users( UserID, Username, Password, Email_Address)
 values(3, 'test3', 'test','test3@test.com' )
+
+select * from Users

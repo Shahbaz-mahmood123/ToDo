@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\shahz\Desktop\Shahbaz Side project\ToDoApp\ToDoApp\App.xaml
-3-832888231
+7-447072632
 
-10-2045651621
+14-1406549383
 19459858375
-Home.xaml;MainWindow.xaml;Register.xaml;
+Home.xaml;UserControls\CompletedTab.xaml;UserControls\HomeTab.xaml;MainWindow.xaml;Register.xaml;UserControls\InProgressTab.xaml;UserControls\PendingTab.xaml;
 
-False
+True
 
